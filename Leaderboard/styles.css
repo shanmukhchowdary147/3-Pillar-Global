@@ -1,0 +1,48 @@
+.main{
+    background-color: antiquewhite;
+}
+.heading{
+    padding: 0px 25px 10px 10px;
+    font-family: Arial;
+    font-size: 30px;
+    text-align:center;
+}
+.cssdiv{
+    /* border: 2px; */
+    background-color: #E5C9C5;
+    display: flex;
+    padding:1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    
+    }
+.cssform{
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+
+}  
+.cssul{
+    border: 1px;
+}
+.bt2css,.bt3css,.bt4css{
+    
+    
+    padding: auto;
+    border-radius: 60%;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    margin: 4px 2px;
+}
