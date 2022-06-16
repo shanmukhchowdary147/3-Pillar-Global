@@ -1,13 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 #mm{
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal !important;
     margin: auto;
-  width: 75%;
-  display: flex;
-  flex-direction: column;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
 }
 #cont{
-    justify-content:space-around;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90%;
+    line-height: 200%;
 }
 #boxes{
     text-align: center;
@@ -22,7 +28,6 @@
     height: 150px;
     text-align: center;
     width: 200px;
-
     margin-right: 50px;
     border-style:solid;
     border-color: #C1C1C1;
@@ -64,6 +69,7 @@
     background-color: pink;
 }
 
+
 #pink{
     height: 60px;
     width: 100%;
@@ -73,24 +79,26 @@
     
 }
 .change{
-    font-family: Arial;
-    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-style: normal !important;
 
 }
 .heading{
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif ;
     font-size: 40px;
     letter-spacing: 6px;
 }
 .lng{
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-style: normal !important;
+    font-weight: 700;
     color: blue;
 }
 
 @media only screen and (max-width: 1024px) {
+
     #mm {
       width: 85%;
     }
