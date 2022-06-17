@@ -1,5 +1,4 @@
 // Day 2 Exercise - Level 1
-// Completed
  
  var challenge = '30 Days Of JavaScript';
 
@@ -13,7 +12,7 @@ console.log(challenge);
 challenge = challenge.toLowerCase();
 console.log(challenge);
 
-challenge = challenge.substr(3);
+challenge = challenge.substring(3);
 console.log(challenge);
 
 challenge = '30 Days Of JavaScript';
