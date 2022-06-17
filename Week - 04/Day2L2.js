@@ -1,7 +1,7 @@
 // Day 2 Exercise - Level 2
 // Completed
  
- console.log('The quote "There is no exercise better for the heart than reaching down and lifting people up." by John Holmes teaches us to help one another.');
+ console.log('The quote \'There is no exercise better for the heart than reaching down and lifting people up.\' by John Holmes teaches us to help one another.');
 
 console.log(typeof(10) === 10);
 console.log(parseFloat('9.8') == 10);
